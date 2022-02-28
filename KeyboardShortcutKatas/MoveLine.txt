@@ -1,6 +1,5 @@
 ﻿Sort the line number below using only move line up/down (you can move multiple lines at a time)
-move line up: ctrl+alt+shift+↑
-move lline down: ctrl+alt+shift+↓
+Lookup the keyboard shortcuts for your tool!
 
 
 42
@@ -53,3 +52,5 @@ move lline down: ctrl+alt+shift+↓
 18
 78
 31
+
+When you think you're done, compare your file with MoveLineSolution.txt
