@@ -1,12 +1,15 @@
-﻿# Basic 
+﻿# Multiple Carets
+All these exercises need multiple carets or cursors. Take a moment to look up the documentation for your editor and look up the keyboard shortcuts you need. If your editor doesn't have support for all these features, switch to another for this exercise.
+
+* [Rider](https://www.jetbrains.com/help/rider/Multicursor.html#multiselection)
+* [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor)
+* [Visual Studio for mac](https://docs.microsoft.com/en-us/visualstudio/mac/multi-caret-editing?view=vsmac-2019)
 
 ## Column Select 
 
 ### Adding 
 
-**HINT:** alt-drag to select a column
-
-transform the start: `1 => #1)` 
+Create several cursors in a column. Transform the start: `1 => * 1)` so the markdown shows a bulleted list
 
 1 apple
 2 orange
@@ -18,7 +21,7 @@ transform the start: `1 => #1)`
 
 ### Deleting
 
-delete the j and the two characters that follow
+Create several cursors in a column. Delete the j and the two characters that follow
 
 1 apjefple
 2 orj*!ange
@@ -28,36 +31,10 @@ delete the j and the two characters that follow
 6 grj%9ape
 7 drjlKagonfruit
 
-# Advanced
-
-## Setup Open w/ VS Code
-
-unfortunately, multi-cursor support is pretty basic in Visual Studio. 
-Our suggestion is to jump to VS Code whenever you have a more 
-advanced multi-cursor use-case. 
-Here's how to set up Visual Studio to this easily.
-
-1. Go to Tools->External Tools...
-2. Click "Add" 
-3. Title: `&1 vscode`
-4. Command: `"your\path\to\vscode\code.exe"`
-5. Arguments: `. -g $(ItemPath):$(CurLine):$(CurCol)`
-6. Initial directory: `$(SolutionDir)`
-7. Click "OK"
-
-In the end, it should look something like this:
-![screenshot](external_tools.png)
-
-After this, pressing the following key sequence (one at a time) `alt t 1` 
-will open the current document in VS code at the current cursor position. 
-
 ## Word Select 
+Create a cursor at the start of each word, then select the whole word. Note you can copy/paste columns of words. 
 
-transform `1 apple => private string apple = "apple";`
-
-**HINT:** `alt-shift-drag` selects a column in VS Code. 
-**HINT:** `ctrl-shift-➔` selects a word.
-**HINT:** You can copy/paste columns of words.
+Transform `1 apple => private string apple = "apple";`
 
 1 apple
 2 orange
@@ -69,7 +46,7 @@ transform `1 apple => private string apple = "apple";`
 
 ## Select Next
 
-**HINT:** `ctrl-d` selects the next instance of the current word or selection.
+Create an additional cursor at the start of the next matching word.
 
 Transform: 
 `Lynx => Shark`
@@ -83,7 +60,7 @@ Baby Lynx
 Dee dee, dee dee dee doo
 Baby Lynx
 
-## Expand Selection
+## Parrot
+In ParrotTest.cs create additional cursors at the beginning of the expression `new Parrot(` and relace it with `createParrot(`
 
-**HINT:** Expand selection shortcut: `shift-alt-➔`
-
+Make sure the tests still pass.
