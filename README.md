@@ -1,4 +1,11 @@
 # KeyboardShortcutKatas.Net
-Kata's to learn keyboarding
+Katas to learn keyboarding skills. Don't forget to run the unit tests when you are editing code. Suggest looking at the exercises in this order:
 
-[![Build And Test](https://github.com/LearnWithLlew/KeyboardShortcutKatas.Net/actions/workflows/BuildAndTest.yml/badge.svg)](https://github.com/LearnWithLlew/KeyboardShortcutKatas.Net/actions/workflows/BuildAndTest.yml)
+* [Move Line](KeyboardShortcutKatas/MoveLine.txt) 
+* [Navigation](KeyboardShortcutKatas/Navigation.cs)
+* [Inline](KeyboardShortcutKatas/Inline.cs)
+* [Multi Cursor](KeyboardShortcutKatas/MultiCursor.md)
+* [Expand Selection](KeyboardShortcutKatas/ExpandSelection.md)
+
+## Acknowledgements
+These exercises were invented by [LearnWithLlew](https://github.com/LearnWithLlew/KeyboardShortcutKatas.Net)
