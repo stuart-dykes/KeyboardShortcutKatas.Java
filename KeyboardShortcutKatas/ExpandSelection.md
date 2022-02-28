@@ -1,9 +1,9 @@
 # Expand Selection
 
-Place the cursor somewhere in the block of code you want to extract as a function. Use Alt-⬆ to expand the selection
+Place the cursor somewhere in the block of code you want to extract as a function. Use 'expand selection' NOT THE MOUSE! Lookup the keyboard shortcut for your tool, it's often Alt-⬆
 
 ## Refactor TennisGame1
-Use expand selection to select the piece of code shown, then use 'extract method' or 'extract variable' or 'extract constant' with the name given. Do not use the mouse!
+Use expand selection to select the piece of code shown, then use 'extract method' or 'extract variable' or 'extract constant' with the name given. Do not use the mouse! Lookup the keyboard shortcuts for your tool.
 
 Keep these instructions at the side of the window somewhere. Run the tests after each refactoring.
 
