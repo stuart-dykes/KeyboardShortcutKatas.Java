@@ -61,6 +61,6 @@ Dee dee, dee dee dee doo
 Baby Lynx
 
 ## Parrot
-In ParrotTest.cs create additional cursors at the beginning of the expression `new Parrot(` and relace it with `createParrot(`
+In ParrotTest.cs create additional cursors at the beginning of the expression `new Parrot(` and relace it with `Parrot.createParrot(`
 
 Make sure the tests still pass.
