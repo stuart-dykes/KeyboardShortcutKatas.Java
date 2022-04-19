@@ -54,3 +54,5 @@ Lookup the keyboard shortcuts for your tool!
 * 31
 
 When you think you're done, compare your file with (MoveLineSolution.md)
+
+Also, sort the test cases in ParrotTest alphabetically. If you put the cursor on the test name, you should be able to move the whole test case up and down in the same way as you can move single lines of code.
