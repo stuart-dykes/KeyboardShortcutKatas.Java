@@ -4,6 +4,7 @@ All these exercises need multiple carets or cursors. Take a moment to look up th
 * [Rider](https://www.jetbrains.com/help/rider/Multicursor.html#multiselection)
 * [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor)
 * [Visual Studio for mac](https://docs.microsoft.com/en-us/visualstudio/mac/multi-caret-editing?view=vsmac-2019)
+* [IntelliJ IDEA](https://www.jetbrains.com/help/idea/multicursor.html#multiselection)
 
 ## Column Select 
 
